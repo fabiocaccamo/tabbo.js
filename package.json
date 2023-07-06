@@ -1,0 +1,54 @@
+{
+  "name": "@fabiocaccamo/tabbo.js",
+  "version": "0.1.0",
+  "description": "enhanced keyboard tabbing usability on any website / webapp with one line of code.",
+  "keywords": [
+    "website",
+    "webapp",
+    "application",
+    "navigation",
+    "keyboard",
+    "tabbed",
+    "tabbing",
+    "tabindex",
+    "tab",
+    "focus",
+    "accessibilty",
+    "usability",
+    "browser"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabiocaccamo/tabbo.js"
+  },
+  "main": "dist/tabbo.js",
+  "scripts": {
+    "build": "npm run format && gulp build --production",
+    "format": "./node_modules/.bin/prettier --config .prettierrc --loglevel warn --write src/tabbo.js",
+    "watch": "gulp"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "@babel/register": "^7.21.0",
+    "browser-sync": "^2.29.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-if": "^3.0.0",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-minify": "^3.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "prettier": "^2.8.7",
+    "rimraf": "^5.0.0",
+    "yargs": "^17.7.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "private": false
+}
