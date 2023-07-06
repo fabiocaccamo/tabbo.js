@@ -1,3 +1,10 @@
+[![](https://img.shields.io/npm/v/@fabiocaccamo/tabbo.js?color=blue&logo=npm)](https://www.npmjs.com/package/@fabiocaccamo/tabbo.js)
+[![](https://img.shields.io/npm/dt/@fabiocaccamo/tabbo.js?color=blue)](https://www.npmjs.com/package/@fabiocaccamo/tabbo.js)
+[![](https://img.shields.io/github/stars/fabiocaccamo/tabbo.js?color=blue&logo=github&logoColor=white&style=flat)](https://github.com/fabiocaccamo/tabbo.js/stargazers)
+[![](https://img.shields.io/bundlephobia/min/@fabiocaccamo/tabbo.js?color=blue)](https://www.npmjs.com/package/@fabiocaccamo/tabbo.js)
+[![](https://img.shields.io/bundlephobia/minzip/@fabiocaccamo/tabbo.js?color=blue)](https://www.npmjs.com/package/@fabiocaccamo/tabbo.js)
+[![](https://img.shields.io/github/license/fabiocaccamo/tabbo.js.svg?color=blue)](https://github.com/fabiocaccamo/tabbo.js/blob/main/README.md)
+
 # tabbo.js
 
 :chocolate_bar: :keyboard: enhanced keyboard tabbing usability on any website / webapp with one line of code.
