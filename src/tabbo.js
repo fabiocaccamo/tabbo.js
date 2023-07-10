@@ -185,7 +185,7 @@
 
     function getFocusableElements(parent) {
         parent = parent || document;
-        const selectors = [
+        const tags = [
             'a',
             'button',
             'input',
@@ -194,7 +194,11 @@
             'textarea',
             '[tabindex]',
         ];
-        const selector = selectors.join(':not([tabindex="-1"]), ');
+        const selector = tags
+            .map(function (tag) {
+                return tag + ':not([tabindex="-1"])';
+            })
+            .join(', ');
         const elements = getFocusableElementsBySelector(parent, selector);
         return elements;
     }
